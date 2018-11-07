@@ -8,7 +8,7 @@ function CalendarioSheets(){
 
   //Decimos desde que fecha a que fecha quiere que recojamos los eventos
   //We say from what date to what date you want us to pick up the events
-  var events = cal.getEvents(new Date("January 1, 2018 00:00:00 CST"), new Date("December 30, 2018 23:59:59 CST"), {search: '-project123'});
+  var events = cal.getEvents(new Date("January 1, 2018 00:00:00 CST"), new Date("December 30, 2018 23:59:59 CST"));
 
   //Creamos el encabezado del sheets.
   //We create the header of the sheets.
